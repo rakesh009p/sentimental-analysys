@@ -26,6 +26,7 @@ public class PtbTokenizer {
     private static Properties tweet;
 
     public static void main(String[] args) throws NullPointerException, IOException {
+
         String string="java is not java";
         URL url=new URL("http://localhost:8080/tweets");
         HttpURLConnection connection=(HttpURLConnection)url.openConnection();
